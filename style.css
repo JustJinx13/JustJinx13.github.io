@@ -27,7 +27,7 @@ h1 {
 }
 
 #nav-ul {
-  list-style-types: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
@@ -74,4 +74,27 @@ main {
 h2,
 h3 {
   margin: 0px;
+}
+
+.pg {
+  font-size: 50px;
+  margin: auto;
+  padding: 8px;
+}
+
+.gall {
+  width: auto;
+  height: 100px;
+  align-items: center;
+}
+
+.photogallery {
+  border: 4px silver ridge;
+  padding: 8px;
+  margin-top: 20px;
+}
+
+.galltext {
+  text-align: center;
+  padding-top: 15px;
 }
