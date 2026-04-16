@@ -26,22 +26,26 @@ $(function () {
     // ONLY CHANGE BELOW THIS POINT //
     //////////////////////////////////
 
-    //toggleGrid();
+    toggleGrid();
 
     //Platforms
-    createPlatform(900, 650, 200, 15, "black");
-    createPlatform(700, 550, 100, 15, "black");
-    createPlatform(1000, 500, 100, 15, "black");
-    createPlatform(1300, 500, 100, 15, "black");
-    createPlatform(400, 600, 100, 15, "black");
+    createPlatform(900, 650, 200, 15, "violet");
+    createPlatform(700, 550, 100, 15, "violet");
+    createPlatform(1000, 500, 100, 15, "violet");
+    createPlatform(1300, 500, 100, 15, "violet");
+    createPlatform(400, 600, 100, 15, "violet");
+    createPlatform(200, 500, 100, 15, "violet", 150, 150, 0, 200, 500, 2);
+    createPlatform(350, 200, 100, 15, "violet");
     //Collectables
-    createCollectable("steve", 1330, 630);
-    createCollectable("max", 1330, 430);
-    createCollectable("kennedi", 430, 530);
+    createCollectable("circuit", 1330, 630);
+    createCollectable("circuit", 1330, 430);
+    createCollectable("circuit", 430, 530);
+    createCollectable("circuit", 380, 150);
     // TODO 4 - Create Cannons
-    createCannon("left", 450, 2000);
-    createCannon("right", 700, 2000);
-    createCannon("top", 1200, 2000);
+    createCannon("left", 400, 1500);
+    createCannon("right", 700, 1500);
+    createCannon("top", 1200, 1500);
+    createCannon("left", 300, 1000, 20, 20, 150, 350, 2);
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
